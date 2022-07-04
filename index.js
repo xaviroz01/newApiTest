@@ -3,7 +3,7 @@ const app = express();
 
 const port = process.env.PORT || 3000;
 
-app.route('/').get( (req, res) => {
+app.route('').get( (req, res) => {
   res.send('Hello from Node.js RESTful API');
 });
 
